@@ -1,0 +1,26 @@
+{
+  "itemId" : "_5gvmkHVLEe2u07-e2LbPKQ",
+  "contextList" : [ {
+    "contextName" : "pro",
+    "repoId" : "_BZzNgHVMEe2u07-e2LbPKQ",
+    "parameterList" : [ {
+      "id" : "_BaCeEXVMEe2u07-e2LbPKQ",
+      "name" : "mysql_3_Password"
+    }, {
+      "id" : "_BaCeEnVMEe2u07-e2LbPKQ",
+      "name" : "mysql_3_Port"
+    }, {
+      "id" : "_BaCeE3VMEe2u07-e2LbPKQ",
+      "name" : "mysql_3_Database"
+    }, {
+      "id" : "_BaCeFHVMEe2u07-e2LbPKQ",
+      "name" : "mysql_3_Login"
+    }, {
+      "id" : "_BaCeFXVMEe2u07-e2LbPKQ",
+      "name" : "mysql_3_Server"
+    }, {
+      "id" : "_BaCeFnVMEe2u07-e2LbPKQ",
+      "name" : "mysql_3_AdditionalParams"
+    } ]
+  } ]
+}
