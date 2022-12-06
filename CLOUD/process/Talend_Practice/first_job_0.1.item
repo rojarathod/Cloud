@@ -2,22 +2,22 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_eChNkHSgEe2rAuJQEvFSfQ" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_eChNkXSgEe2rAuJQEvFSfQ" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_eChNknSgEe2rAuJQEvFSfQ" name="directory" prompt="directory?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/20246/Desktop/File_1/"/>
+    <contextParameter comment="" internalId="_yrCxgHU0Ee2u07-e2LbPKQ" name="File" prompt="File?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/20246/Desktop/File_2/"/>
   </context>
   <context confirmationNeeded="false" name="QA">
     <contextParameter comment="" internalId="_eChNk3SgEe2rAuJQEvFSfQ" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_eChNlHSgEe2rAuJQEvFSfQ" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_eChNlXSgEe2rAuJQEvFSfQ" name="directory" prompt="directory?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
+    <contextParameter comment="" internalId="_yrCxgXU0Ee2u07-e2LbPKQ" name="File" prompt="File?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
   </context>
   <context confirmationNeeded="false" name="Prod">
     <contextParameter comment="" internalId="_eChNlnSgEe2rAuJQEvFSfQ" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_eChNl3SgEe2rAuJQEvFSfQ" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_eChNmHSgEe2rAuJQEvFSfQ" name="directory" prompt="directory?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
+    <contextParameter comment="" internalId="_yrCxgnU0Ee2u07-e2LbPKQ" name="File" prompt="File?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
   </context>
   <context confirmationNeeded="false" name="Dev">
     <contextParameter comment="" internalId="_eChNmXSgEe2rAuJQEvFSfQ" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_eChNmnSgEe2rAuJQEvFSfQ" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_eChNm3SgEe2rAuJQEvFSfQ" name="directory" prompt="directory?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
+    <contextParameter comment="" internalId="_yrCxg3U0Ee2u07-e2LbPKQ" name="File" prompt="File?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -62,7 +62,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:xP7x+XpxomuiJNb3f8GdFYiv/WBtJ/Y3rbP2oskW"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:RVT0i1zN/EwnaE47Svp2gaZvW66aHI+x1pAjBH/6"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -97,7 +97,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:fz8RObJfLfv1mLR1jerrTuN6mUPghDlJhqQ1l6M9"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:g+5qyN3ROsVVWTWtsHVWTL1CT9wfzk6iLFrh59T4"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -129,7 +129,7 @@
   </parameters>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.directory"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.File"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="DIRECTORIES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
@@ -151,7 +151,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tIterateToFlow_1"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="filename"/>
-      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tIterateToFlow_1">
@@ -174,12 +174,14 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="op" name="op">
       <column comment="" key="false" length="-1" name="filename" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Dynamic" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="table_name" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Dynamic" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="op" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row1.filename " name="filename" nullable="true" type="id_Dynamic"/>
+        <mapperTableEntries expression="row1.filename" name="filename" nullable="true" type="id_Dynamic"/>
+        <mapperTableEntries expression="row1.filename " name="table_name" nullable="true" type="id_Dynamic"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="filename" nullable="true" type="id_String"/>
@@ -188,12 +190,12 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="// code sample:&#10;//&#10;// multiply by 2 the row identifier&#10;// output_row.id = input_row.id * 2;&#10;//&#10;// lowercase the name&#10;// output_row.name = input_row.name.toLowerCase();&#10;&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.tablename = out.table_name;&#10;context.filename = out.filename;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="128">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
@@ -234,6 +236,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
   <connection connectorName="FLOW" label="op" lineStyle="0" metaname="op" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tJavaRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="table_name"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="op"/>
   </connection>
@@ -246,13 +253,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_469d08fb-e25f-480c-b895-85a026a9b2a8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rM9Zq88e8YnpcMO1m7MqorqNVTIc8Y0T+TxwD6YWLT6hp/PgBpeZDW+N4+WY4FGPD2KRbf5otzm7&#13;
-BYj8V7QHxg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_37fdc37a-799e-4672-8bab-71384e78e863"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+Mm8OBaQY2RViA+j34/6MbcGm2Frp3b63GP4ogEoeYYGFqt9Vooc8R8PtpfSP/kZRP0zEnozAOpt&#13;
-79JBHNvo5w==</DigestValue></Reference></SignedInfo><SignatureValue>KafVwLAHyutB1OYlv/jFPgbp5EV7eo34LdiIpbagbakTSG41BAlCK7vd+cMOej1QDlWdhzMJwS1L&#13;
-V24fnD7lFoM7URtXZvnoWdqX+M+/aKWioJq3qRQUbEgdnlZnD3iTND38oJ+igaKFrWWBdOIDd6GH&#13;
-HvNzEVBg43d5IhlB1CM/2uAbvzGAPvVM9Cfy0uMvsJz0vQNxT5GQFwRwss6V+7xm8xgSuqmBTfrY&#13;
-/wO4+yyrhNfVS821a8fy3srmXumXhuK2vswsAlthFUhNFkR6rS70wz8iktYYhJybgVmM6S/ob6wn&#13;
-Sq2XTfrQiwQy7syKCZHnkHA4Sd5EZy6l9XH6Ig==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_20e17c78-b6a3-450e-8122-97cd09513fe5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>x3//60Yic9IMDsuvPkRwft+Zg/HB5yHalQjpXOhVBk/B93Rah7IhNKmhuskbzKmgwYB+K1JP2xNp&#13;
+XqwNa8k/AA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_83f76d0c-e91c-4e00-bf22-25674ed38f8d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>soTc43QYPXnm50n5o8FupGAKK7B+9+ovnjQwPwyHwpeCZ5CBTX1xfIxaXaa23rEyuA4s9FDX4a7h&#13;
+8gcjAB5bGA==</DigestValue></Reference></SignedInfo><SignatureValue>S0WtF37Mzb+MNuZqtCgQUAzjGfhtu9t+uznIkTYNCisjKcpmvd2rpoTtOouNoRmaoZo6aCxIXSrw&#13;
+luNGpqZlDw6favuv6dqXT+qEGjkQxjj0F08amRPJet40GoAwR7gNbyQwJA7jAm0uyytY8TzMaLvs&#13;
+sxwYciw0OK68tXAZ91P5DQRhLXB5N3qxrEa+7KPuNyKbnoDV6d7C6iOo/yrOoP8DaJKjbggX9n+G&#13;
+5OaiJjVtAFIik7gweLRmJFpYe5MNb3aI6DtD6QUpBJCdAJG0udtl5raPlN/0/DGht7L4jPZB+to8&#13;
+rMSaHygXIYUDA84vK2GxMD4wgX3GeT9IEwOcsg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -274,4 +281,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_37fdc37a-799e-4672-8bab-71384e78e863" Target="#_469d08fb-e25f-480c-b895-85a026a9b2a8"><Timestamp>2022-12-05 13:54:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_83f76d0c-e91c-4e00-bf22-25674ed38f8d" Target="#_20e17c78-b6a3-450e-8122-97cd09513fe5"><Timestamp>2022-12-06 07:08:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
