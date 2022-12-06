@@ -5,17 +5,13 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_p_P78G_XEe2Ct9xoF4kfWA",
+    "id" : "_kW1FAHU0Ee2u07-e2LbPKQ",
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_NK9RMG_XEe2Ct9xoF4kfWA",
+    "id" : "_YwLyAHU0Ee2u07-e2LbPKQ",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_NK9RMG_XEe2Ct9xoF4kfWA - employee",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
