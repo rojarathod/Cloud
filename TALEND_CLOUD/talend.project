@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_-JAGkXxbEe21YIk2DW3jBg" label="Talend_Cloud" language="java" technicalLabel="TALEND_CLOUD" author="_-JAGknxbEe21YIk2DW3jBg" productVersion="Talend Cloud Data Management Platform-8.0.1.20220923_1236-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/rojarathod/Cloud&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_-S_JAHxbEe21YIk2DW3jBg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_-JAGknxbEe21YIk2DW3jBg" login="srilatha.gurram@trial42369.us.talend.com" firstName="Srilatha" lastName="Gurram" type="DQ"/>
+</xmi:XMI>
